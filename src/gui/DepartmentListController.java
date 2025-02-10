@@ -58,7 +58,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 
 	@FXML
 	private void onBtNewAction(ActionEvent event) {
-		Stage parentStage = Utils.currentStage(event);
+		Stage parentStage = Utils.currentStage(event); 
 		Department obj = new Department();
 		createDialogForm(obj, "/gui/DepartmentForm.fxml", parentStage);
 	}
